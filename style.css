@@ -1,11 +1,13 @@
 body {
   margin: 0;
+  position: absolute;
 }
 
 header {
+  /* color: blue; */
   position: absolute;
-  display: flex; 
-   margin: 50px;
+  display: flex;
+  padding: 50px;
 }
 
 h1 {
@@ -13,7 +15,10 @@ h1 {
   flex-direction: column;
   margin: 10px;
   color: white;
-  
+}
+
+h1:hover {
+  color: hsl(0, 0%, 0%);
 }
 
 span {
@@ -23,10 +28,11 @@ span {
 }
 
 nav {
- 
+  padding-left: 120vh;
 }
 
 a {
+  color: rgb(255, 255, 255);
   padding: 0 30px;
   font-size: 1.2em;
   text-decoration: none;
@@ -34,18 +40,27 @@ a {
 }
 
 a:hover {
-  color: #EAE5E5;
+  color: #eae5e5;
 }
 
-
-txt{
-   display: flex;
-   align-items: center;
-   margin: 20px;
-
+txt {
+  display: flex;
+  align-items: center;
+  margin: 20px;
 }
 
-img{
+img {
   width: 100%;
   height: 100%;
+}
+
+.container-contact {
+  position: absolute;
+  
+}
+
+.title-contact {
+  background-color: red;
+  display: flex;
+  align-items: center;
 }

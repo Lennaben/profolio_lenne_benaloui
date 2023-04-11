@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2? famille= EB+Garamond:wght@800 & display=swap");
+
+body {
+  margin: 0;
+}
+
+header {
+  /* color: blue; */
+  position: absolute;
+  display: flex;
+  padding: 50px;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
+
+span {
+  font-family: "Work Sans";
+  font-size: 15px;
+  letter-spacing: 0.1em;
+}
+
+nav {
+  padding-left: 120vh;
+  cursor: pointer;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  padding: 0 30px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+}
+
+txt {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.container-contact {
+  position: relative;
+}
+
+.title-contact {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 20%;
+  font-size: 50px;
+
+  /* font-family: ; */
+}
+
+
+
+.lien-contact-cv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lien-contact-lm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.cv:hover {
+  color: white;
+}
