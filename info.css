@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family= Courgette & display=swap');
+@import url("https://fonts.googleapis.com/css2? family= Courgette & display=swap");
 
 body {
   margin: 0;
@@ -17,7 +17,6 @@ h1 {
   flex-direction: column;
   margin: 10px;
   color: rgb(0, 0, 0);
-
 }
 
 span {
@@ -28,7 +27,6 @@ span {
 
 .nom {
   font-style: italic;
-
 }
 
 nav {
@@ -58,7 +56,8 @@ txt {
 img {
   max-width: 100%;
   height: auto;
-  
+  float: right;
+  margin-left: 20px;
 }
 
 .container-contact {
@@ -101,27 +100,12 @@ p {
   padding-top: 40%;
 }
 
-.lien-contact-mail {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
-  padding-top: 55%;
+.container-txt{
+  padding-top: 30%;
+  font-family: "Roboto", sans-serif;
 }
 
-.lien-contact-numero {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-  font-weight: bold;
-  padding-top: 55%;
-  text-decoration: underline;
-}
+
 
 .lien-contact-mail:hover {
   color: white;
