@@ -1,3 +1,0 @@
-// const mesInfos = document.querySelector(''){
-
-// }

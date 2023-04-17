@@ -47,7 +47,7 @@ a:hover {
   font-weight: bold;
 }
 
-txt {
+.txt {
   display: flex;
   align-items: center;
   margin: 20px;
@@ -124,3 +124,5 @@ p {
 .lien-contact-mail:hover {
   color: white;
 }
+
+

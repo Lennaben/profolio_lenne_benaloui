@@ -6,14 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>contact</title>
     <link rel="stylesheet" href="contact.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('juMZa6qm2fkc-TBZt');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_wbjf0fr', 'template_bhajiz7', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+ 
   </head>
+
   <body>
     <header>
       <h1 class="nom">Lenna Benaloui <span> Portfolio </span></h1>
-      <nav>
+      <nav class="navigation">
         <ul>
-          <a href="">Infos</a>
-          <a href="">projets</a>
+          <a href="index.html"></a>
+          <a href="info.html">Infos</a>
+          <a href="projet.html">projets</a>
           <a href="">contact</a>
         </ul>
       </nav>
@@ -21,10 +47,21 @@
 
     <div class="container-contact">
       <h1 class="title-contact">CONTACT</h1>
-      <P>texte</P>
+      <p>texte</p>
       <p class="lien-contact-numero">07.82.67.72.22</p>
       <form class="lien-contact-mail" action="">Adresse mail</form>
     </div>
+
+    <form id="contact-form">
+      <input type="hidden" name="contact_number" />
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message"></textarea>
+      <input type="submit" value="Send" />
+    </form>
 
     <div class="img">
       <img
@@ -34,4 +71,5 @@
       />
     </div>
   </body>
+  <!-- <script src="contact.js"></script> -->
 </html>
