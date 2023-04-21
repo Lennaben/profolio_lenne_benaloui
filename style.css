@@ -13,7 +13,6 @@ body {
   opacity: 0.3;
   height: 300px;
   width: 100%;
- 
 }
 
 header {
@@ -103,6 +102,7 @@ a:hover {
   height: 200px;
   width: 100%;
   object-fit: cover;
+  object-position: 50% 19%;
   /* position: absolute; */
 }
 
@@ -117,6 +117,7 @@ a:hover {
   height: 200px;
   object-fit: cover;
   padding-top: 3%;
+  position: static;
   object-position: 50% 80%;
 }
 
@@ -147,13 +148,12 @@ li {
   list-style: none;
 }
 
-.contact-container-principal{
+.contact-container-principal {
   background-color: darkblue;
   display: flex;
-
+  
 }
 
-.title-contact{
+.title-contact {
   color: yellow;
-
 }

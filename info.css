@@ -47,3 +47,25 @@ a {
   height: auto;
   object-fit: cover;
 }
+
+
+.infos-page{
+  background-color: black;
+  color: white;
+}
+
+
+.image-cv-infos{
+  /* background-color: red; */
+  display: flex;  
+  margin-top: 50px;
+
+  
+}
+
+
+.image-cv{  
+  float: left;
+  margin-left: 15%;
+  width:30%;
+}
