@@ -146,3 +146,17 @@ a:hover {
 h1:hover {
   color: hsl(0, 0%, 0%);
 }
+
+.texte-info{
+  width: 60%;
+  
+  font-family: "bebas neue";
+  font-size: 30px;
+  margin-right: 67%;
+  
+}
+
+.lenna-img{
+  width: 10%;
+  
+}
