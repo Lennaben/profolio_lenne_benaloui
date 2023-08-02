@@ -111,7 +111,7 @@ a:hover {
   padding-top: 13%;
   position: static;
   object-position: 50% 80%;
-  
+
   position: fixed;
 }
 
@@ -164,21 +164,25 @@ li {
   font-family: "Bebas Neue";
 }
 
-.logo{
+.logo {
   width: 30%;
   display: flex;
-
-  
-  
-  
-
 }
 
-.container-logo{
-
+.container-logo {
   width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: khaki;
+}
+
+.infos-projects {
+  /* width: 100px; */
+  font-size: 50px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: rgb(250, 15, 15); */
 }
