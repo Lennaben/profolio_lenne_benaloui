@@ -147,16 +147,10 @@ h1:hover {
   color: hsl(0, 0%, 0%);
 }
 
-.texte-info{
-  width: 60%;
-  
+.texte-info {
+  width: 40%;
   font-family: "bebas neue";
   font-size: 30px;
-  margin-right: 67%;
-  
-}
-
-.lenna-img{
-  width: 10%;
-  
+  height: 10px;
+  margin-right: 57%;
 }
