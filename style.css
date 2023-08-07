@@ -298,8 +298,23 @@ h1:hover {
     display: none;
   }
 
-  .texte-info{
-       width: auto;
+  .texte-info {
+    width: auto;
+  }
+
+  .contact-container {
+    width: 50%;
+    margin-top: 50px;
+    display: grid;
+    margin-bottom: 40%;
+  }
+
+  .container-line{
+    display: none;
+  }
+
+  .qrcode{
+    margin-bottom: 20px;
   }
 
   /* .container-infos{
