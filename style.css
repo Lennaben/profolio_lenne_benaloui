@@ -278,15 +278,28 @@ h1:hover {
     max-width: 100%;
   }
 
-  /* .image-banniere-footer {
-    width: 400px;
-  } */
+  .image-banniere-footer {
+    max-width: 100%;
+  }
+
+  .infos-projects {
+    width: 70%;
+    margin-left: 50px;
+  }
 
   .container-nav {
     font-size: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .lenna-img {
+    display: none;
+  }
+
+  .texte-info{
+       width: auto;
   }
 
   /* .container-infos{
